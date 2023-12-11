@@ -1,0 +1,155 @@
+{
+  "identifier" : "6A49E873",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "9.0",
+      "familyShareable" : false,
+      "internalID" : "6474120285",
+      "localizations" : [
+        {
+          "description" : "Oj så roligt",
+          "displayName" : "Rolig kredit",
+          "locale" : "sv"
+        },
+        {
+          "description" : "This is a fun credit",
+          "displayName" : "Fun credit",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "funcredit",
+      "referenceName" : "Fun credit",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "1295.0",
+      "familyShareable" : false,
+      "internalID" : "6474120605",
+      "localizations" : [
+        {
+          "description" : "Get all the best things now great",
+          "displayName" : "Fun premium",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "premiumfunstuff",
+      "referenceName" : "Premium fun stuff",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6474119977",
+    "_askToBuyEnabled" : false,
+    "_compatibilityTimeRate" : {
+      "3" : 6
+    },
+    "_developerTeamID" : "6SGQZ32758",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 723988951.59474802,
+    "_locale" : "sv",
+    "_storefront" : "SWE",
+    "_storeKitErrors" : [
+      {
+        "current" : {
+          "index" : 2,
+          "type" : "generic"
+        },
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : {
+          "index" : 2,
+          "type" : "generic"
+        },
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : {
+          "index" : 0,
+          "type" : "verification"
+        },
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : {
+          "index" : 3,
+          "type" : "generic"
+        },
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ],
+    "_timeRate" : 15
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21421843",
+      "localizations" : [
+
+      ],
+      "name" : "FancyPayOften",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "29.0",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6474120944",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Give money often month",
+              "displayName" : "Pay every month",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "fancymonthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Pay montly",
+          "subscriptionGroupID" : "21421843",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

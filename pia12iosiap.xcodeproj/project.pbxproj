@@ -11,6 +11,8 @@
 		E85A49132B26FB2500A9E158 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A49122B26FB2500A9E158 /* ContentView.swift */; };
 		E85A49152B26FB2600A9E158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85A49142B26FB2600A9E158 /* Assets.xcassets */; };
 		E85A49182B26FB2600A9E158 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85A49172B26FB2600A9E158 /* Preview Assets.xcassets */; };
+		E85A49202B26FE1E00A9E158 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85A491F2B26FE1E00A9E158 /* StoreKit.framework */; };
+		E85A49232B272B0100A9E158 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85A49222B272B0100A9E158 /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		E85A49122B26FB2500A9E158 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E85A49142B26FB2600A9E158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E85A49172B26FB2600A9E158 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E85A491F2B26FE1E00A9E158 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E85A49212B270CC400A9E158 /* piaiap.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = piaiap.storekit; sourceTree = "<group>"; };
+		E85A49222B272B0100A9E158 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85A49202B26FE1E00A9E158 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +41,10 @@
 		E85A49042B26FB2500A9E158 = {
 			isa = PBXGroup;
 			children = (
+				E85A49212B270CC400A9E158 /* piaiap.storekit */,
 				E85A490F2B26FB2500A9E158 /* pia12iosiap */,
 				E85A490E2B26FB2500A9E158 /* Products */,
+				E85A491E2B26FE1E00A9E158 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				E85A49102B26FB2500A9E158 /* pia12iosiapApp.swift */,
+				E85A49222B272B0100A9E158 /* Store.swift */,
 				E85A49122B26FB2500A9E158 /* ContentView.swift */,
 				E85A49142B26FB2600A9E158 /* Assets.xcassets */,
 				E85A49162B26FB2600A9E158 /* Preview Content */,
@@ -65,6 +74,14 @@
 				E85A49172B26FB2600A9E158 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E85A491E2B26FE1E00A9E158 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E85A491F2B26FE1E00A9E158 /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85A49232B272B0100A9E158 /* Store.swift in Sources */,
 				E85A49132B26FB2500A9E158 /* ContentView.swift in Sources */,
 				E85A49112B26FB2500A9E158 /* pia12iosiapApp.swift in Sources */,
 			);
@@ -272,6 +290,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"pia12iosiap/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"pia12iosiap/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SGQZ32758;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
